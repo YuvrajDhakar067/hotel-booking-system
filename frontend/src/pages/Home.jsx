@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../../src/App.css";
+import "../../src/app.css";
 import BookingForm from "../components/BookingForm"; // Importing the BookingForm component
 
 const Home = () => {
