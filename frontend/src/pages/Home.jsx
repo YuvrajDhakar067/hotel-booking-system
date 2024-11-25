@@ -10,7 +10,7 @@ const Home = () => {
   useEffect(() => {
     const fetchRooms = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/rooms"); // Replace with your backend API URL
+        const response = await fetch("https://hotel-booking-system-5ggo.onrender.com/api/rooms"); // Replace with your backend API URL
         const data = await response.json();
         setRooms(data);
         setLoading(false);
