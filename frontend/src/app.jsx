@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./app.css";
 import Home from "./pages/Home"; // Assuming Home is in `pages` folder
 
 const App = () => {
